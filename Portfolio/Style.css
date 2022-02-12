@@ -6,11 +6,15 @@
     --white-main-color: #fff;
 
 }
-.body {
+body {
     margin: var(--margin);
     padding: var(--padding);
     box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
 }
+
+
 ul {
     list-style: none;
 }
@@ -38,15 +42,26 @@ nav ul {
     display: flex;
 }
 nav ul li a {
-    margin: 2px;
+    margin: 1px;
     padding: 0px 18px;
     display: flex;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-weight: bold;
     color: #585b55;
     letter-spacing: 2px;
-    font-size: 14px;
-    height: 30px;
-    line-height: 35px;
+    font-size: 15px;
+    height: 35px;
+    line-height: 30px;
+}
 
+nav ul li a:hover {
+    background-color: var(--main-bg-color);
+    color: #fff;
+    border-radius: 50px;
+}
+.order {
+    color: var(--main-bg-color);
+    font-weight: 500;
+    font-size: 0.9em;
+    border-bottom: 3px solid var(--main-bg-color) ;
 }
