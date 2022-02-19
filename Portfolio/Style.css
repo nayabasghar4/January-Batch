@@ -11,7 +11,6 @@
 *{  
     margin: 0%;
     padding: 0%;
-    border: 1px solid black;
 }
 
 body {
@@ -54,10 +53,10 @@ nav ul li a {
     padding: 10px;
     display: flex;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: light;
     color: #585b55;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
 }
 
@@ -81,11 +80,10 @@ nav ul li a:hover {
     color: var(--main-bg-color);
     margin: 0%;    
 }
-
 .name  {
     font-weight: 600;
     font-size: 0.9em;
-    text-decoration: underline solid gray;
+    text-decoration: underline solid  gray;
     color: var(--main-bg-color);
 }
 .main-content {
@@ -138,10 +136,65 @@ p {
     line-height: 30px;
 }
 
+#section2{
+    display: flex;
+    justify-content: center;
+}
 
+.text-container{
+    width: 40%;
+    height: 400px;
+}
 
-.skills {
-    width: 80%;
-    height: 40%;
-    margin: 0px;
+.icon-text{
+    display: flex;
+    margin: 30px;
+
+}
+
+.skill-box{
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #E5E6E4;
+    color: var(--main-bg-color);
+    margin-right: 30px;
+    word-wrap: break-word ;
+    
+
+}
+.text-container span {
+    font-size: 18px;
+
+}
+.text-container h2 {
+    margin-top: -2%;
+    font-size: 45px;
+}
+.skill-disc p {
+    font-size: 18px;
+}
+
+.skill-image{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.skill-image img{
+    height: 70%;
+    width: 70%;
+
 }
