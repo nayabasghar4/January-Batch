@@ -16,6 +16,7 @@ html {
     padding: 0%;
     
     
+    
 }
 
 body {
@@ -63,6 +64,7 @@ nav ul li a {
     letter-spacing: 2px;
     font-size: 16px;
     line-height: 20px;
+    transition: 0.5s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -92,8 +94,8 @@ nav ul li a:hover {
     color: var(--main-bg-color);
 }
 .main-content {
-    width: 90%;
-    height: 40%;
+    width: 100%;
+    height: 60%;
     display: flex;
     justify-content: start;
     position: absolute;
@@ -102,19 +104,27 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     padding: 0%;
     margin: 0%;
+    
+
+}
+.main-content img {
+    width: 90%;
+    height: 100%;
+    margin-left: 20%;
+
 }
 
 .right-content {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin: 20px;
+    margin: 50px;
 }
 
 .picture {
     object-fit: contain;
     width: 100%;
-    height: 100%;
+    height: 120%;
     align-items: center;
 }
 button {
@@ -124,6 +134,7 @@ button {
     padding: 10px;
     border-radius: 10px;
     background-color: var(--main-bg-color); 
+    
 }
 
 button a {
@@ -131,9 +142,12 @@ button a {
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+    
 }
 button:hover a{
     color: var(--black-color);
+    transition: 0.5s ease-in-out;
+
 }
 p {
     color: gray;
