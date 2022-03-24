@@ -1,0 +1,163 @@
+* {
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(212, 177, 245);
+    height: 10vh ;
+
+}
+.logo {
+    font-size: 2rem;
+    width: 50%;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    width: 100%;
+
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+
+}
+.menu ul li {
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    height: 80vh;
+
+}
+.main-contant {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: lavender;
+
+}
+.side-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #e0e05d;
+    justify-content: center;
+
+}
+.footer {
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+   
+    
+
+}
+
+.footer ul li {
+    margin: 10px;
+    
+
+}
+@media screen and (max-width:1428px) {
+    .logo {
+        width: 70%;
+
+    }
+    .menu {
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width:687px) {
+    .logo {
+        font-size: 1.4rem;
+
+    }
+    .menu {
+        width: 30%;
+    }
+    
+}
+@media screen and (max-width:687px) {
+    .logo {
+        font-size: 1.rem;
+
+    }
+    .menu {
+        width: 30%;
+        font-size: 0.9rem;
+    }
+    
+}
+@media screen and (max-width:484px) {
+    .logo {
+        font-size: 0.9rem;
+
+    }
+    .menu {
+        width: 30%;
+        font-size: 0.6rem;
+        margin: 3px;
+    }
+}
+@media screen and (max-width:918px) {
+    section{
+        display: block;
+        height: 450px;
+        background-color: #e0e05d ;
+        
+    }
+    .main-contant{
+        width: auto;
+    }
+    .side-bar {
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (max-width:896px) {
+    section{
+        height: 500px;
+        background-color: #e0e05d;
+}
+}
+@media screen and (max-width:592px) {
+    section{
+        height: 600px;
+        background-color: #e0e05d;
+
+    }
+    
+
+}
+@media screen and (max-width:473px) {
+    section{
+        height: 820px;
+        background-color: #e0e05d;
+
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+

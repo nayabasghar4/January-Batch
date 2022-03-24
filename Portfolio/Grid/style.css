@@ -1,12 +1,12 @@
 *{
     /* border: 1px solid black; */
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
 }
 .logo {
     display: grid;
     place-items: center;
-    font-size: 50px;
+    font-size: 2em;
     background-color: #fabebe;
     color: maroon;
 }
